@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stilos.css">
+    <title>Página de Clases</title>
+</head>
+<body class="fondo-clases">
+    <header>
+        <div class="back">
+            <div class="menu container">
+                <a href="#" class="logo"></a>
+                <input type="checkbox" id="menu"/>
+                <label for="menu">
+                    <img src="imagenes/Logo.PNG" class="menu-icono" alt="logo">
+                </label>
+                <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="clases.html" class="activo" >Clases</a></li>
+            <li><a href="profesores.html">Profesores</a></li>
+            <li><a href="planesyprecios.html">Planes y Precios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+    </div>
+</div>
+</header>
+        <script>
+            document.getElementById('menu-toggle').addEventListener('click', function() {
+              document.getElementById('menu').classList.toggle('active');
+            });
+          </script>
+      </header>
+
+        <h1>Clases Disponibles</h1>
+        <p>Explora nuestros cursos y elige el que más se adapte a ti.</p>
+    </header>
+
+    <section>
+        <h2>Listado de Cursos</h2>
+        <ul>
+            <li>Curso de Inglés Básico - Aprende desde cero.</li>
+            <li>Curso de Inglés intermedio - Aprende desde tu nivel y mejora la fluidez.</li>
+            <li>Curso de Inglés Avanzado - Aprende a entablar una corversacion y recadtar en ingles.</li>
+            <li>Curso de Conversación en Inglés - Mejora tu fluidez al comunicarte.</li>
+            <li>Curso de Gramática Basica - Aprende con facilidad como redactar en ingles.</li>
+            <li>Curso de Gramática Intermedia - Mejora tu gramática y domina mas al entablar una Conversación.</li>
+            <li>Curso de Gramática Avanzada - Domina la estrucra del idioma y exprezate como un profecional.</li>
+        </ul>
+    </section>
+    <style>
+        table{  
+            
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 10px;
+            text-align: center;
+        }
+        th, td {
+            padding: 10px;
+            border: 8px solid rgb(29, 52, 182);
+        }
+        th {
+            background-color: rgb(213, 216, 228);
+        }
+
+
+    </style>
+    <section>
+        <h2>Precios y Duración</h2>
+        <table>
+            <tr>
+                <th>Curso</th>
+                <th>Duración</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Inglés Básico</td>
+                <td>4 semanas</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Inglés intermedio</td>
+                <td>5 semanas</td>
+                <td>$160</td>
+            </tr>
+            <tr>
+                <td>Inglés Avanzado</td>
+                <td>7 semanas</td>
+                <td>$200</td>
+            </tr>
+            <tr>
+                <td>Conversación en Inglés</td>
+                <td>6 semanas</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>Gramática Básica</td>
+                <td>4 semanas</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Gramática Intermedia</td>
+                <td>5 semanas</td>
+                <td>$180</td>
+            </tr>
+            <tr>
+                <td>Gramática Avanzada</td>
+                <td>8 semanas</td>
+                <td>$200</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Inscripción Rápida</h2>
+        <p><a href="clases.html">Inscribirse Ahora</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nuestro Curso. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

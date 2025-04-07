@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background: linear-gradient(
+        50deg,
+        rgb(82, 104, 226) 25%,
+        rgb(231, 224, 224) 73% );
+    font-family: 'Open Sans', sans-serif;
+  
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.back {
+    padding: 10px 0;
+    background-color: #1d1b99;
+    align-items: center;
+}
+.menu {
+    position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.logo{
+    font-size: 10px 0;
+    color: blue;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.logo img {
+    width: 80px;
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a {
+    transition: color 0.3s ease;
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(4, 8, 243);
+    display: block;
+}
+.menu .navbar ul li a:hover {
+    color: #15A4F5;
+}
+#menu {
+    display: none;
+}
+.menu-icono {
+    width: 80px;
+}
+body.fondo-profesores {
+    background-color: #090ca7b6;
+}
+body.fondo-clases {
+    background-color: #15A4F5;
+}
+.body.fondo-planes {
+    background-color: #090ca7b6;
+}
+.inicio {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9; /* opcional */
+}
+
+.inicio h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #1E3A8A; /* tu azul principal */
+}
+
+.inicio p {
+    font-size: 1.2rem;
+    color: #333333;
+}
+/* Centrar contenido en todas las secciones */
+section {
+    text-align: center;
+    padding: 3rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Ajustar imagen destacada */
+  section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  /* Centrar el iframe del video */
+  section iframe {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%;
+  }
+  
+  /* Estilos básicos para los enlaces de llamada a la acción */
+  section a {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #1E3A8A;  /* Azul principal */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  section a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Footer centrado */
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+/* Estilo general tabla */
+.tabla-cursos {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tabla-cursos th,
+.tabla-cursos td {
+    padding: 10px;
+    border: 2px solid #1D34B6;
+}
+
+.tabla-cursos th {
+    background-color: #d5d8e4;
+}
+
+/* Estilo del botón */
+a.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1E3A8A;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.boton:hover {
+    background-color: #000000;
+}
+  
